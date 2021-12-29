@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apache.GridGain.ConsoleClient", "Apache.GridGain.ConsoleClient\Apache.GridGain.ConsoleClient.csproj", "{2A4D47BF-C0A2-49C7-96E1-9B6D228778A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4D47BF-C0A2-49C7-96E1-9B6D228778A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4D47BF-C0A2-49C7-96E1-9B6D228778A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4D47BF-C0A2-49C7-96E1-9B6D228778A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4D47BF-C0A2-49C7-96E1-9B6D228778A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3322E779-C3F6-4921-B77E-CB9D5D5B3B58}
+	EndGlobalSection
+EndGlobal

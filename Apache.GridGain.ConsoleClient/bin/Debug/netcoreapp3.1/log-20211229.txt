@@ -1,0 +1,9 @@
+2021-12-29 12:34:59.661 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2021-12-29 12:34:59.689 +05:30 [Information] Hosting environment: "Production"
+2021-12-29 12:34:59.691 +05:30 [Information] Content root path: "D:\Source Code\Private\Apache.GridGain\Apache.GridGain.ConsoleClient\bin\Debug\netcoreapp3.1"
+2021-12-29 12:37:13.913 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2021-12-29 12:37:13.964 +05:30 [Information] Hosting environment: "Production"
+2021-12-29 12:37:13.966 +05:30 [Information] Content root path: "D:\Source Code\Private\Apache.GridGain\Apache.GridGain.ConsoleClient\bin\Debug\netcoreapp3.1"
+2021-12-29 12:39:17.103 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2021-12-29 12:39:17.153 +05:30 [Information] Hosting environment: "Production"
+2021-12-29 12:39:17.155 +05:30 [Information] Content root path: "D:\Source Code\Private\Apache.GridGain\Apache.GridGain.ConsoleClient\bin\Debug\netcoreapp3.1"

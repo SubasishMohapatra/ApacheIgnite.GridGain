@@ -1,0 +1,351 @@
+[12:36:10,425][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 8.8.12#20211215-sha1:64ab34c8
+>>> 2021 Copyright(C) GridGain Systems, Inc. and Contributors
+>>> 
+>>> Ignite documentation: http://gridgain.com
+
+[12:36:10,430][INFO][main][IgniteKernal] Config URL: n/a
+[12:36:10,447][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=12, svcPoolSize=12, callbackPoolSize=12, stripedPoolSize=12, sysPoolSize=12, mgmtPoolSize=4, dataStreamerPoolSize=12, utilityCachePoolSize=12, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=12, buildIdxPoolSize=3, igniteHome=D:\gridgain-community-8.8.12, igniteWorkDir=D:\Source Code\Private\Apache.GridGain\Apache.GridGain.ConsoleClient\bin\Debug\netcoreapp3.1, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@51e2adc7, nodeId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, marsh=BinaryMarshaller [], marshLocJobs=false, daemon=false, p2pEnabled=true, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=900, ackTimeout=5000, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=5, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=org.apache.ignite.spi.communication.tcp.internal.ConnectGateway@ca263c2, ctxInitLatch=java.util.concurrent.CountDownLatch@589b3632[Count = 1], stopping=false, clientPool=null, nioSrvWrapper=null, stateProvider=null, connectionRequestor=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@45f45fa1, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@55a1c291, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@2145433b, tracingSpi=org.apache.ignite.spi.tracing.NoopTracingSpi@2890c451, clientMode=true, rebalanceThreadPoolSize=3, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=2, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=REPEATABLE_READ, dfltConcurrency=PESSIMISTIC, dfltTxTimeout=0, txTimeoutOnPartitionMapExchange=0, deadlockTimeout=10000, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, sysWorkerBlockedTimeout=120000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslCtxFactory=null, sslFactory=null, portRange=100, threadPoolSize=12, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=PlatformDotNetConfiguration [binaryCfg=null], binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=null, activeOnStart=null, autoActivation=null, clusterStateOnStart=null, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=12, selectorCnt=6, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100, maxActiveComputeTasksPerConn=0]], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=null, commFailureRslvr=null, sqlCfg=SqlConfiguration [longQryWarnTimeout=1000, sqlQryHistSize=1000, sqlGlobalMemoryQuota=60%, sqlQueryMemoryQuota=0, sqlOffloadingEnabled=false, dfltQryTimeout=0], asyncContinuationExecutor=null]
+[12:36:10,452][INFO][main][IgniteKernal] Daemon mode: off
+[12:36:10,452][INFO][main][IgniteKernal] OS: Windows 10 10.0 amd64
+[12:36:10,452][INFO][main][IgniteKernal] OS user: subasish
+[12:36:10,460][INFO][main][IgniteKernal] PID: 30296
+[12:36:10,461][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 1.8
+[12:36:10,461][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 1.8.0_311-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.311-b11
+[12:36:10,462][INFO][main][IgniteKernal] VM total memory: 0.96GB
+[12:36:10,462][INFO][main][IgniteKernal] Remote Management [restart: off, REST: off, JMX (remote: off)]
+[12:36:10,463][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=false, config=null]
+[12:36:10,463][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache']]
+[12:36:10,464][WARNING][main][IgniteKernal] Peer class loading is enabled (disable it in production for performance and deployment consistency reasons)
+[12:36:10,464][WARNING][main][IgniteKernal] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[12:36:10,464][INFO][main][IgniteKernal] 3-rd party licenses can be found at: D:\gridgain-community-8.8.12\libs\licenses
+[12:36:10,524][INFO][main][IgnitePluginProcessor] Configured plugins:
+[12:36:10,524][INFO][main][IgnitePluginProcessor]   ^-- None
+[12:36:10,525][INFO][main][IgnitePluginProcessor] 
+[12:36:10,528][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[12:36:10,731][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=6, selectorSpins=0, pairedConn=false]
+[12:36:10,732][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[12:36:10,943][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50150]
+[12:36:10,952][INFO][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[12:36:10,953][INFO][main][IgniteKernal] Security status [authentication=off, tls/ssl=off]
+[12:36:10,957][WARNING][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Failed to shutdown socket
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(Unknown Source)
+	at org.apache.ignite.internal.util.IgniteUtils.close(IgniteUtils.java:4351)
+	at org.apache.ignite.internal.util.nio.GridNioServer$AbstractNioClientWorker.closeKey(GridNioServer.java:2796)
+	at org.apache.ignite.internal.util.nio.GridNioServer$AbstractNioClientWorker.close(GridNioServer.java:2831)
+	at org.apache.ignite.internal.util.nio.GridNioServer$DirectNioClientWorker.processRead(GridNioServer.java:1353)
+	at org.apache.ignite.internal.util.nio.GridNioServer$AbstractNioClientWorker.processSelectedKeysOptimized(GridNioServer.java:2518)
+	at org.apache.ignite.internal.util.nio.GridNioServer$AbstractNioClientWorker.bodyInternal(GridNioServer.java:2283)
+	at org.apache.ignite.internal.util.nio.GridNioServer$AbstractNioClientWorker.body(GridNioServer.java:1905)
+	at org.apache.ignite.internal.util.worker.GridWorker.run(GridWorker.java:119)
+	at java.lang.Thread.run(Unknown Source)
+[12:36:11,023][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50168]
+[12:36:11,091][INFO][main][PdsFoldersResolver] Consistent ID used for local node is [fc6db7a7-16b6-4234-af89-e4ed973f3e0a] according to persistence data storage folders
+[12:36:11,096][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50169]
+[12:36:11,166][WARNING][main][IgniteH2Indexing] Serialization of Java objects in H2 was enabled.
+[12:36:11,175][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50170]
+[12:36:11,236][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50171]
+[12:36:11,296][INFO][main][QueryMemoryManager] SQL query global quota was set to 617506406. Current memory tracking parameters: [qryQuota=0, globalQuota=617506406, offloadingEnabled=false]
+[12:36:11,296][INFO][main][QueryMemoryManager] SQL query memory quota was set to 0. Current memory tracking parameters: [qryQuota=0, globalQuota=617506406, offloadingEnabled=false]
+[12:36:11,297][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50172]
+[12:36:11,322][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[12:36:11,338][INFO][main][GridRestProcessor] REST protocols do not start on client node. To start the protocols on client node set '-DIGNITE_REST_START_ON_CLIENT=true' system property.
+[12:36:11,360][WARNING][main][PlatformProcessorImpl] Marshaller is automatically set to o.a.i.i.binary.BinaryMarshaller (other nodes must have the same marshaller type).
+[12:36:11,360][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50189]
+[12:36:11,422][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50190]
+[12:36:11,482][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50191]
+[12:36:11,544][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50192]
+[12:36:11,604][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50193]
+[12:36:11,666][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50194]
+[12:36:11,728][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50195]
+[12:36:11,738][INFO][main][IgniteKernal] Non-loopback local IPs: 10.16.15.141, 172.19.16.1, 192.168.29.59, 2405:201:a006:3d:1c2b:5b8a:d097:442a, 2405:201:a006:3d:710e:da16:3454:5b7f, fe80:0:0:0:4152:67e4:e61e:d169%eth9, fe80:0:0:0:48cf:2150:57cb:3119%eth4, fe80:0:0:0:710e:da16:3454:5b7f%wlan1, fe80:0:0:0:7d9f:5000:8d2a:a45a%wlan0, fe80:0:0:0:91:2ff7:c3ec:50ce%eth5, fe80:0:0:0:a43b:6a2b:7f71:c5ad%wlan2, fe80:0:0:0:b89f:5b9f:59df:56ea%eth4
+[12:36:11,738][INFO][main][IgniteKernal] Enabled local MACs: 00059A3C7A00, 00155DA0E131, 4851C534A48B, 4851C534A48C, 4851C534A48F, 4A51C534A48B
+[12:36:11,740][INFO][main][ClusterProcessor] Cluster ID and tag has been read from metastorage: null
+[12:36:11,744][INFO][main][IgniteClusterImpl] Shutdown policy was updated [oldVal=null, newVal=null]
+[12:36:11,746][INFO][main][IgniteStatisticsManagerImpl] Statistics usage state was changed from null to null
+[12:36:11,793][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50197]
+[12:36:11,868][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50198]
+[12:36:11,933][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50199]
+[12:36:11,993][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50200]
+[12:36:12,055][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50203]
+[12:36:12,118][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50208]
+[12:36:12,180][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50218]
+[12:36:12,241][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50220]
+[12:36:12,303][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50221]
+[12:36:12,364][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50222]
+[12:36:12,428][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50224]
+[12:36:12,489][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50225]
+[12:36:12,550][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50226]
+[12:36:12,613][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50227]
+[12:36:12,675][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50229]
+[12:36:12,737][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50230]
+[12:36:12,798][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50231]
+[12:36:12,859][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50232]
+[12:36:12,921][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50233]
+[12:36:12,984][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50234]
+[12:36:13,046][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50235]
+[12:36:13,107][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50236]
+[12:36:13,169][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50237]
+[12:36:13,232][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50238]
+[12:36:13,294][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50240]
+[12:36:13,355][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50241]
+[12:36:13,418][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50242]
+[12:36:13,479][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50244]
+[12:36:13,540][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50245]
+[12:36:13,603][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50247]
+[12:36:13,672][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50249]
+[12:36:13,726][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50250]
+[12:36:13,789][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50252]
+[12:36:13,849][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50253]
+[12:36:13,911][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50254]
+[12:36:13,973][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50255]
+[12:36:14,034][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50256]
+[12:36:14,097][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50257]
+[12:36:14,158][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50259]
+[12:36:14,221][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50260]
+[12:36:14,282][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50261]
+[12:36:14,345][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50262]
+[12:36:14,408][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50263]
+[12:36:14,469][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50275]
+[12:36:14,529][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50277]
+[12:36:14,591][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50278]
+[12:36:14,654][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50279]
+[12:36:14,715][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50281]
+[12:36:14,777][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50282]
+[12:36:14,839][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50283]
+[12:36:14,900][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50284]
+[12:36:14,962][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50285]
+[12:36:15,024][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50286]
+[12:36:15,086][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50287]
+[12:36:15,149][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50288]
+[12:36:15,211][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50289]
+[12:36:15,273][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50290]
+[12:36:15,338][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50291]
+[12:36:15,397][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50293]
+[12:36:15,459][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50295]
+[12:36:15,519][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50296]
+[12:36:15,580][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50297]
+[12:36:15,642][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50298]
+[12:36:15,704][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50299]
+[12:36:15,765][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50300]
+[12:36:15,826][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50301]
+[12:36:15,888][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50302]
+[12:36:15,950][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50303]
+[12:36:16,013][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50304]
+[12:36:16,074][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50305]
+[12:36:16,138][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50306]
+[12:36:16,198][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50307]
+[12:36:16,259][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50308]
+[12:36:16,322][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50310]
+[12:36:16,384][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50311]
+[12:36:16,446][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50313]
+[12:36:16,508][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50314]
+[12:36:16,570][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50315]
+[12:36:16,633][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50316]
+[12:36:16,696][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50317]
+[12:36:16,757][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50318]
+[12:36:16,819][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50319]
+[12:36:16,880][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50320]
+[12:36:16,943][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50321]
+[12:36:17,005][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50322]
+[12:36:17,067][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50323]
+[12:36:17,128][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50329]
+[12:36:17,192][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50330]
+[12:36:17,253][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50332]
+[12:36:17,314][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50333]
+[12:36:17,376][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50334]
+[12:36:17,439][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50335]
+[12:36:17,501][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50336]
+[12:36:17,562][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50337]
+[12:36:17,624][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50338]
+[12:36:17,684][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50339]
+[12:36:17,745][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50340]
+[12:36:17,806][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50341]
+[12:36:17,867][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50342]
+[12:36:17,929][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50343]
+[12:36:17,989][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50344]
+[12:36:18,052][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50345]
+[12:36:18,112][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50346]
+[12:36:18,174][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50348]
+[12:36:18,235][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50349]
+[12:36:18,297][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50350]
+[12:36:18,358][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50351]
+[12:36:18,419][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50352]
+[12:36:18,481][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50353]
+[12:36:18,543][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50354]
+[12:36:18,604][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50356]
+[12:36:18,668][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50357]
+[12:36:18,729][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50358]
+[12:36:18,790][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50359]
+[12:36:18,851][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50360]
+[12:36:18,914][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50361]
+[12:36:18,976][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50362]
+[12:36:19,039][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50363]
+[12:36:19,101][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50365]
+[12:36:19,161][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50366]
+[12:36:19,224][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50367]
+[12:36:19,286][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50368]
+[12:36:19,348][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50369]
+[12:36:19,411][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50370]
+[12:36:19,472][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50371]
+[12:36:19,533][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50372]
+[12:36:19,595][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50373]
+[12:36:19,658][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50374]
+[12:36:19,722][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50375]
+[12:36:19,785][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50376]
+[12:36:19,846][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50377]
+[12:36:19,907][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50378]
+[12:36:19,968][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50380]
+[12:36:20,030][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50381]
+[12:36:20,090][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50382]
+[12:36:20,152][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50383]
+[12:36:20,214][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50384]
+[12:36:20,274][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50385]
+[12:36:20,339][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50386]
+[12:36:20,399][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50390]
+[12:36:20,462][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50391]
+[12:36:20,524][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50392]
+[12:36:20,586][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50393]
+[12:36:20,648][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50394]
+[12:36:20,710][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50395]
+[12:36:20,771][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50396]
+[12:36:20,833][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50397]
+[12:36:20,896][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50399]
+[12:36:20,916][INFO][tcp-client-disco-msg-worker-#4-#60][TcpDiscoverySpi] Router node: TcpDiscoveryNode [id=f37be2cf-3b0f-469f-8264-8d7a6c3135c0, consistentId=0:0:0:0:0:0:0:1,10.16.15.141,127.0.0.1,172.19.16.1,192.168.29.59:47500, addrs=ArrayList [0:0:0:0:0:0:0:1, 10.16.15.141, 127.0.0.1, 172.19.16.1, 192.168.29.59], sockAddrs=HashSet [/10.16.15.141:47500, /0:0:0:0:0:0:0:1:47500, /127.0.0.1:47500, BLT210043.mshome.net/172.19.16.1:47500, BLT210043.Corp.Optym.net/192.168.29.59:47500], discPort=47500, order=1, intOrder=1, lastExchangeTime=1640761580894, loc=false, ver=8.8.12#20211215-sha1:64ab34c8, isClient=false]
+[12:36:20,955][INFO][tcp-client-disco-msg-worker-#4-#60][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustEnabled' was changed from 'null' to 'true'
+[12:36:20,955][INFO][tcp-client-disco-msg-worker-#4-#60][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustTimeout' was changed from 'null' to '0'
+[12:36:20,956][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteTxManager] Transactions parameter 'collisionsDumpInterval' was changed from 'null' to '1000'
+[12:36:20,956][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50400]
+[12:36:20,958][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteTxManager] Transactions parameter 'longOperationsDumpTimeout' was changed from 'null' to '60000'
+[12:36:20,958][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpSamplesPerSecondLimit' was changed from 'null' to '5'
+[12:36:20,959][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpThreshold' was changed from 'null' to '0'
+[12:36:20,959][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteH2Indexing] SQL parameter 'sql.defaultQueryTimeout' was changed from 'null' to '0'
+[12:36:20,959][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteH2Indexing] SQL parameter 'sql.disabledFunctions' was changed from 'null' to '[FILE_WRITE, CANCEL_SESSION, MEMORY_USED, CSVREAD, LINK_SCHEMA, MEMORY_FREE, FILE_READ, CSVWRITE, SESSION_ID, LOCK_MODE]'
+[12:36:20,966][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteTxManager] Transactions parameter 'transactionTimeDumpSamplesCoefficient' was changed from 'null' to '0.0'
+[12:36:20,966][INFO][tcp-client-disco-msg-worker-#4-#60][IgniteTxManager] Transactions parameter 'txOwnerDumpRequestsAllowed' was changed from 'null' to 'true'
+[12:36:20,967][INFO][tcp-client-disco-msg-worker-#4-#60][ClusterProcessor] recursing_hypatia
+[12:36:20,979][INFO][disco-notifier-worker-#57][GridClusterStateProcessor] Received activate cluster request with BaselineTopology[id=0] initiator node ID: fc6db7a7-16b6-4234-af89-e4ed973f3e0a
+[12:36:20,988][WARNING][disco-notifier-worker-#57][GridClusterStateProcessor] Received state finish message with unexpected ID: ChangeGlobalStateFinishMessage [id=dd6b2050e71-a78cdf94-5b67-4c38-b857-64ea73088ae5, reqId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, clusterActive=true, state=ACTIVE, transitionRes=true]
+[12:36:20,990][INFO][disco-notifier-worker-#57][MvccProcessorImpl] Assigned mvcc coordinator [crd=MvccCoordinator [topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], nodeId=f37be2cf-3b0f-469f-8264-8d7a6c3135c0, ver=1640761401085, local=false, initialized=false]]
+[12:36:21,019][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50401]
+[12:36:21,062][INFO][exchange-worker-#73][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], crd=false, evt=NODE_JOINED, evtNode=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, customEvt=null, allowMerge=true, exchangeFreeSwitch=false]
+[12:36:21,073][INFO][exchange-worker-#73][msg] Components activation performed in 0 ms.
+[12:36:21,080][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50402]
+[12:36:21,081][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Established outgoing communication connection [locAddr=/127.0.0.1:50403, rmtAddr=/127.0.0.1:47101]
+[12:36:21,143][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50404]
+[12:36:21,205][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50405]
+[12:36:21,268][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50406]
+[12:36:21,325][INFO][exchange-worker-#73][GridCacheProcessor] Started cache [name=ignite-sys-cache, id=-2100569601, dataRegionName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false]
+[12:36:21,326][INFO][exchange-worker-#73][GridCacheProcessor] Starting caches on local join performed in 253 ms.
+[12:36:21,331][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50407]
+[12:36:21,333][INFO][exchange-worker-#73][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], crd=false]
+[12:36:21,354][INFO][sys-#66][GridDhtPartitionsExchangeFuture] Received full message, will finish exchange [node=f37be2cf-3b0f-469f-8264-8d7a6c3135c0, resVer=AffinityTopologyVersion [topVer=3, minorTopVer=0]]
+[12:36:21,375][INFO][sys-#66][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], err=null, rebalanced=true, wasRebalanced=false]
+[12:36:21,382][INFO][sys-#66][GridCacheProcessor] Finish proxy initialization, cacheName=ignite-sys-cache, localNodeId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a
+[12:36:21,384][INFO][exchange-worker-#73][GridCachePartitionExchangeManager] AffinityTopologyVersion [topVer=3, minorTopVer=0], evt=NODE_JOINED, evtNode=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, client=true]
+[12:36:21,384][INFO][sys-#66][GridDhtPartitionsExchangeFuture] Completed partition exchange [localNode=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], evt=NODE_JOINED, evtNode=TcpDiscoveryNode [id=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, consistentId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, addrs=ArrayList [0:0:0:0:0:0:0:1, 10.16.15.141, 127.0.0.1, 172.19.16.1, 192.168.29.59], sockAddrs=HashSet [/0:0:0:0:0:0:0:1:0, /127.0.0.1:0, BLT210043.mshome.net/172.19.16.1:0, host.docker.internal/192.168.29.59:0, /10.16.15.141:0], discPort=0, order=3, intOrder=0, lastExchangeTime=1640761571743, loc=true, ver=8.8.12#20211215-sha1:64ab34c8, isClient=true], rebalanced=true, done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=3, minorTopVer=0]]
+[12:36:21,386][INFO][sys-#66][GridDhtPartitionsExchangeFuture] Exchange timings [startVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], stage="Waiting in exchange queue" (63 ms), stage="Exchange parameters initialization" (11 ms), stage="Components activation" (0 ms), stage="Determine exchange type" (258 ms), stage="Waiting for Full message" (21 ms), stage="Affinity recalculation" (15 ms), stage="Full map updating" (5 ms), stage="Exchange done" (10 ms), stage="Total time" (383 ms)]
+[12:36:21,388][INFO][sys-#66][GridDhtPartitionsExchangeFuture] Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=3, minorTopVer=0], stage="Affinity initialization (local join) [grp=MaintenanceCache]" (15 ms) (parent=Affinity recalculation), stage="Affinity initialization (local join) [grp=ignite-sys-cache]" (14 ms) (parent=Affinity recalculation)]
+[12:36:21,393][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50408]
+[12:36:21,398][INFO][main][IgniteKernal] Performance suggestions for grid  (fix if possible)
+[12:36:21,399][INFO][main][IgniteKernal] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[12:36:21,400][INFO][main][IgniteKernal]   ^-- Disable grid events (remove 'includeEventTypes' from configuration)
+[12:36:21,400][INFO][main][IgniteKernal]   ^-- Switch to the most recent 11 JVM version
+[12:36:21,400][INFO][main][IgniteKernal]   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+[12:36:21,401][INFO][main][IgniteKernal]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[12:36:21,401][INFO][main][IgniteKernal] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[12:36:21,402][INFO][main][IgniteKernal] 
+[12:36:21,402][INFO][main][IgniteKernal] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[12:36:21,403][INFO][main][IgniteKernal] 
+
+>>> +-----------------------------------------------------------------------+
+>>> Ignite ver. 8.8.12#20211215-sha1:64ab34c8e07c865af4e6fc11165cce4e3abcc794
+>>> +-----------------------------------------------------------------------+
+>>> OS name: Windows 10 10.0 amd64
+>>> CPU(s): 12
+>>> Heap: 1.0GB
+>>> VM name: 30296@BLT210043
+>>> Local node [ID=FC6DB7A7-16B6-4234-AF89-E4ED973F3E0A, order=3, clientMode=true]
+>>> Local node addresses: [host.docker.internal/0:0:0:0:0:0:0:1, BLT210043.Corp.Optym.net/10.16.15.141, BLT210043.mshome.net/127.0.0.1, /172.19.16.1, /192.168.29.59]
+>>> Local ports: TCP:10800 TCP:47100 
+
+[12:36:21,406][INFO][main][GridDiscoveryManager] Topology snapshot [ver=3, locNode=fc6db7a7, servers=1, clients=2, state=ACTIVE, CPUs=12, offheap=3.1GB, heap=3.0GB, aliveNodes=[TcpDiscoveryNode [id=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, consistentId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, isClient=true, ver=8.8.12#20211215-sha1:64ab34c8], TcpDiscoveryNode [id=f37be2cf-3b0f-469f-8264-8d7a6c3135c0, consistentId=0:0:0:0:0:0:0:1,10.16.15.141,127.0.0.1,172.19.16.1,192.168.29.59:47500, isClient=false, ver=8.8.12#20211215-sha1:64ab34c8], TcpDiscoveryNode [id=84760b55-4851-4932-96d3-e930d9c9690c, consistentId=84760b55-4851-4932-96d3-e930d9c9690c, isClient=true, ver=8.8.12#20211215-sha1:64ab34c8]]]
+[12:36:21,407][INFO][main][GridDiscoveryManager]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[12:36:21,407][INFO][main][G] Node started : [stage="Configure system pool" (23 ms),stage="Start managers" (559 ms),stage="Configure binary metadata" (6 ms),stage="Start processors" (401 ms),stage="Init metastore" (360 ms),stage="Finish recovery" (0 ms),stage="Join topology" (9253 ms),stage="Await transition" (8 ms),stage="Await exchange" (397 ms),stage="Total time" (11007 ms)]
+[12:36:21,412][WARNING][main][] GC server mode is not enabled, this could lead to less than optimal performance on multi-core machines (to enable see https://docs.microsoft.com/en-us/dotnet/core/run-time-config/garbage-collector).
+[12:36:21,412][INFO][main][PluginProcessor] Configured .NET plugins:
+[12:36:21,412][INFO][main][PluginProcessor]   ^-- None
+[12:36:21,454][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50409]
+[12:36:21,488][INFO][exchange-worker-#73][GridCacheProcessor] Started cache [name=MaintenanceCache, id=763298895, dataRegionName=null, mode=PARTITIONED, atomicity=ATOMIC, backups=0, mvcc=false]
+[12:36:21,506][INFO][exchange-worker-#73][GridCacheProcessor] Finish proxy initialization, cacheName=MaintenanceCache, localNodeId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a
+[12:36:21,517][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50410]
+[12:36:21,578][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50411]
+[12:36:24,213][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50420]
+[12:36:24,788][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50422]
+[12:36:25,175][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50424]
+[12:36:25,560][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50426]
+[12:36:26,029][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50427]
+[12:36:27,269][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50436]
+[12:36:28,011][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50437]
+[12:36:28,072][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50438]
+[12:36:28,134][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50439]
+[12:36:28,195][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50440]
+[12:36:28,258][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50441]
+[12:36:28,318][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50442]
+[12:36:28,380][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50443]
+[12:36:28,441][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50445]
+[12:36:28,505][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50446]
+[12:36:28,568][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50447]
+[12:36:28,631][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50448]
+[12:36:28,692][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50449]
+[12:36:28,755][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50450]
+[12:36:28,817][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50451]
+[12:36:28,878][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50452]
+[12:36:28,942][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50453]
+[12:36:29,002][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50454]
+[12:36:29,064][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50455]
+[12:36:29,128][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50456]
+[12:36:29,190][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50459]
+[12:36:29,250][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50460]
+[12:36:29,314][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50461]
+[12:36:29,376][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50462]
+[12:36:29,438][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50463]
+[12:36:29,507][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50465]
+[12:36:29,560][INFO][grid-nio-worker-tcp-comm-0-#31][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50466]
+[12:36:29,622][INFO][grid-nio-worker-tcp-comm-1-#32][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50467]
+[12:36:29,684][INFO][grid-nio-worker-tcp-comm-2-#33][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50468]
+[12:36:29,747][INFO][grid-nio-worker-tcp-comm-3-#34][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50469]
+[12:36:29,809][INFO][grid-nio-worker-tcp-comm-4-#35][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50470]
+[12:36:29,872][INFO][grid-nio-worker-tcp-comm-5-#36][TcpCommunicationSpi] Accepted incoming communication connection [locAddr=/127.0.0.1:47100, rmtAddr=/127.0.0.1:50471]
+[12:36:29,876][WARNING][disco-event-worker-#72][GridDiscoveryManager] Node FAILED: TcpDiscoveryNode [id=84760b55-4851-4932-96d3-e930d9c9690c, consistentId=84760b55-4851-4932-96d3-e930d9c9690c, addrs=ArrayList [0:0:0:0:0:0:0:1, 10.16.15.141, 127.0.0.1, 172.19.16.1, 192.168.29.59], sockAddrs=HashSet [/0:0:0:0:0:0:0:1:0, /127.0.0.1:0, BLT210043.mshome.net/172.19.16.1:0, BLT210043.Corp.Optym.net/192.168.29.59:0, /10.16.15.141:0], discPort=0, order=2, intOrder=2, lastExchangeTime=1640761580894, loc=false, ver=8.8.12#20211215-sha1:64ab34c8, isClient=true]
+[12:36:29,889][INFO][disco-event-worker-#72][GridDiscoveryManager] Topology snapshot [ver=4, locNode=fc6db7a7, servers=1, clients=1, state=ACTIVE, CPUs=12, offheap=3.1GB, heap=2.0GB, aliveNodes=[TcpDiscoveryNode [id=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, consistentId=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, isClient=true, ver=8.8.12#20211215-sha1:64ab34c8], TcpDiscoveryNode [id=f37be2cf-3b0f-469f-8264-8d7a6c3135c0, consistentId=0:0:0:0:0:0:0:1,10.16.15.141,127.0.0.1,172.19.16.1,192.168.29.59:47500, isClient=false, ver=8.8.12#20211215-sha1:64ab34c8]]]
+[12:36:29,891][INFO][disco-event-worker-#72][GridDiscoveryManager]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+[12:36:29,896][INFO][exchange-worker-#73][time] Started exchange init [topVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], crd=false, evt=NODE_FAILED, evtNode=84760b55-4851-4932-96d3-e930d9c9690c, customEvt=null, allowMerge=true, exchangeFreeSwitch=false]
+[12:36:29,898][INFO][exchange-worker-#73][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], err=null, rebalanced=true, wasRebalanced=true]
+[12:36:29,900][INFO][exchange-worker-#73][GridDhtPartitionsExchangeFuture] Completed partition exchange [localNode=fc6db7a7-16b6-4234-af89-e4ed973f3e0a, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], evt=NODE_FAILED, evtNode=TcpDiscoveryNode [id=84760b55-4851-4932-96d3-e930d9c9690c, consistentId=84760b55-4851-4932-96d3-e930d9c9690c, addrs=ArrayList [0:0:0:0:0:0:0:1, 10.16.15.141, 127.0.0.1, 172.19.16.1, 192.168.29.59], sockAddrs=HashSet [/0:0:0:0:0:0:0:1:0, /127.0.0.1:0, BLT210043.mshome.net/172.19.16.1:0, BLT210043.Corp.Optym.net/192.168.29.59:0, /10.16.15.141:0], discPort=0, order=2, intOrder=2, lastExchangeTime=1640761580894, loc=false, ver=8.8.12#20211215-sha1:64ab34c8, isClient=true], rebalanced=true, done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=4, minorTopVer=0]]
+[12:36:29,901][INFO][exchange-worker-#73][GridDhtPartitionsExchangeFuture] Exchange timings [startVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], stage="Waiting in exchange queue" (0 ms), stage="Exchange parameters initialization" (1 ms), stage="Determine exchange type" (1 ms), stage="Exchange done" (2 ms), stage="Total time" (4 ms)]
+[12:36:29,901][INFO][exchange-worker-#73][GridDhtPartitionsExchangeFuture] Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=4, minorTopVer=0]]
+[12:36:29,902][INFO][exchange-worker-#73][time] Finished exchange init [topVer=AffinityTopologyVersion [topVer=4, minorTopVer=0], crd=false]
+[12:36:29,904][INFO][exchange-worker-#73][GridCachePartitionExchangeManager] AffinityTopologyVersion [topVer=4, minorTopVer=0], evt=NODE_FAILED, evtNode=84760b55-4851-4932-96d3-e930d9c9690c, client=true]
+[12:37:21,404][INFO][grid-timeout-worker-#30][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=fc6db7a7, uptime=00:01:00.015]
+    ^-- Cluster [hosts=1, CPUs=12, servers=1, clients=1, topVer=4, minorTopVer=0]
+    ^-- Network [addrs=[0:0:0:0:0:0:0:1, 10.16.15.141, 127.0.0.1, 172.19.16.1, 192.168.29.59], discoPort=0, commPort=47100]
+    ^-- CPU [CPUs=12, curLoad=0.03%, avgLoad=0.1%, GC=0%]
+    ^-- Heap [used=76MB, free=92.18%, comm=981MB]
+    ^-- Off-heap memory [used=0MB, free=-1%, allocated=0MB]
+    ^-- Page memory [pages=0]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=2, qSize=0]
+    ^-- System thread pool [active=0, idle=12, qSize=0]
+    ^-- Striped thread pool [active=0, idle=12, qSize=0]
+[12:37:31,522][INFO][ignite-update-notifier-timer][GridUpdateNotifier] Update status is not available.

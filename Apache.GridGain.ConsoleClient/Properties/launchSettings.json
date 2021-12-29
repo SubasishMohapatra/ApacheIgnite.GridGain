@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Apache.GridGain.ConsoleClient": {
+      "commandName": "Project",
+      "commandLineArgs": "CacheKey:UpperValue=1 CacheKey:RecordCount=3"
+    }
+  }
+}

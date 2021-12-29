@@ -1,0 +1,98 @@
+[10:39:11,841][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 8.8.11#20211125-sha1:f3544042
+>>> 2021 Copyright(C) GridGain Systems, Inc. and Contributors
+>>> 
+>>> Ignite documentation: http://gridgain.com
+
+[10:39:11,856][INFO][main][IgniteKernal] Config URL: n/a
+[10:39:11,881][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=12, svcPoolSize=12, callbackPoolSize=12, stripedPoolSize=12, sysPoolSize=12, mgmtPoolSize=4, dataStreamerPoolSize=12, utilityCachePoolSize=12, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=12, buildIdxPoolSize=3, igniteHome=D:\gridgain-community-8.8.11, igniteWorkDir=D:\Source Code\Private\Apache.GridGain\Apache.GridGain.ConsoleClient\bin\Debug\netcoreapp3.1, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@e874448, nodeId=d9c08330-106b-45b8-ba57-f6998139156d, marsh=BinaryMarshaller [], marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=900, ackTimeout=5000, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=5, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=org.apache.ignite.spi.communication.tcp.internal.ConnectGateway@25a65b77, ctxInitLatch=java.util.concurrent.CountDownLatch@2ed0fbae[Count = 1], stopping=false, clientPool=null, nioSrvWrapper=null, stateProvider=null, connectionRequestor=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@212bf671, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@5af97850, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@5ef60048, tracingSpi=org.apache.ignite.spi.tracing.NoopTracingSpi@1d548a08, clientMode=true, rebalanceThreadPoolSize=3, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=2, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=REPEATABLE_READ, dfltConcurrency=PESSIMISTIC, dfltTxTimeout=0, txTimeoutOnPartitionMapExchange=0, deadlockTimeout=10000, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, sysWorkerBlockedTimeout=120000, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslCtxFactory=null, sslFactory=null, portRange=100, threadPoolSize=12, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=PlatformDotNetConfiguration [binaryCfg=null], binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=null, activeOnStart=null, autoActivation=null, clusterStateOnStart=null, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=12, selectorCnt=6, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100, maxActiveComputeTasksPerConn=0]], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=null, commFailureRslvr=null, sqlCfg=SqlConfiguration [longQryWarnTimeout=1000, sqlQryHistSize=1000, sqlGlobalMemoryQuota=60%, sqlQueryMemoryQuota=0, sqlOffloadingEnabled=false, dfltQryTimeout=0], asyncContinuationExecutor=null]
+[10:39:11,885][INFO][main][IgniteKernal] Daemon mode: off
+[10:39:11,886][INFO][main][IgniteKernal] OS: Windows 10 10.0 amd64
+[10:39:11,886][INFO][main][IgniteKernal] OS user: subasish
+[10:39:11,895][INFO][main][IgniteKernal] PID: 14284
+[10:39:11,896][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 1.8
+[10:39:11,896][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 1.8.0_311-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.311-b11
+[10:39:11,897][INFO][main][IgniteKernal] VM total memory: 0.96GB
+[10:39:11,898][INFO][main][IgniteKernal] Remote Management [restart: off, REST: off, JMX (remote: off)]
+[10:39:11,898][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=false, config=null]
+[10:39:11,899][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache']]
+[10:39:11,899][WARNING][main][IgniteKernal] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[10:39:11,900][INFO][main][IgniteKernal] 3-rd party licenses can be found at: D:\gridgain-community-8.8.11\libs\licenses
+[10:39:11,976][INFO][main][IgnitePluginProcessor] Configured plugins:
+[10:39:11,976][INFO][main][IgnitePluginProcessor]   ^-- None
+[10:39:11,977][INFO][main][IgnitePluginProcessor] 
+[10:39:11,981][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[10:39:12,231][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47101, locHost=0.0.0.0/0.0.0.0, selectorsCnt=6, selectorSpins=0, pairedConn=false]
+[10:39:12,232][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[10:39:14,303][INFO][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[10:39:14,305][INFO][main][IgniteKernal] Security status [authentication=off, tls/ssl=off]
+[10:39:14,458][INFO][main][PdsFoldersResolver] Consistent ID used for local node is [d9c08330-106b-45b8-ba57-f6998139156d] according to persistence data storage folders
+[10:39:14,533][WARNING][main][IgniteH2Indexing] Serialization of Java objects in H2 was enabled.
+[10:39:14,674][INFO][main][QueryMemoryManager] SQL query global quota was set to 617506406. Current memory tracking parameters: [qryQuota=0, globalQuota=617506406, offloadingEnabled=false]
+[10:39:14,674][INFO][main][QueryMemoryManager] SQL query memory quota was set to 0. Current memory tracking parameters: [qryQuota=0, globalQuota=617506406, offloadingEnabled=false]
+[10:39:14,699][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10801
+[10:39:14,714][INFO][main][GridRestProcessor] REST protocols do not start on client node. To start the protocols on client node set '-DIGNITE_REST_START_ON_CLIENT=true' system property.
+[10:39:14,738][WARNING][main][PlatformProcessorImpl] Marshaller is automatically set to o.a.i.i.binary.BinaryMarshaller (other nodes must have the same marshaller type).
+[10:39:15,070][INFO][main][IgniteKernal] Non-loopback local IPs: 172.29.32.1, 192.168.29.59, 2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:91:2ff7:c3ec:50ce, 2405:201:a006:3d:710e:da16:3454:5b7f, 2405:201:a006:3d:8571:5421:11cf:e8dc, fe80:0:0:0:710e:da16:3454:5b7f%wlan2, fe80:0:0:0:7d9f:5000:8d2a:a45a%wlan0, fe80:0:0:0:91:2ff7:c3ec:50ce%eth4, fe80:0:0:0:a43b:6a2b:7f71:c5ad%wlan3, fe80:0:0:0:e40c:a4e9:127e:e23e%eth17
+[10:39:15,072][INFO][main][IgniteKernal] Enabled local MACs: 00155D5D152B, 4851C534A48B, 4851C534A48C, 4851C534A48F, 4A51C534A48B
+[10:39:15,074][INFO][main][ClusterProcessor] Cluster ID and tag has been read from metastorage: null
+[10:39:15,079][INFO][main][IgniteClusterImpl] Shutdown policy was updated [oldVal=null, newVal=null]
+[10:39:15,082][INFO][main][IgniteStatisticsManagerImpl] Statistics usage state was changed from null to null
+[10:39:20,694][INFO][tcp-client-disco-msg-worker-#4-#61][TcpDiscoverySpi] Router node: TcpDiscoveryNode [id=2da17901-1180-4eeb-a443-963133e24c6f, consistentId=0:0:0:0:0:0:0:1,127.0.0.1,172.29.32.1,192.168.29.59,2401:4900:313c:4df8:4503:1e9e:364d:514a,2401:4900:313c:4df8:91:2ff7:c3ec:50ce,2405:201:a006:3d:710e:da16:3454:5b7f,2405:201:a006:3d:8571:5421:11cf:e8dc:47500, addrs=ArrayList [0:0:0:0:0:0:0:1, 127.0.0.1, 172.29.32.1, 192.168.29.59, 2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:91:2ff7:c3ec:50ce, 2405:201:a006:3d:710e:da16:3454:5b7f, 2405:201:a006:3d:8571:5421:11cf:e8dc], sockAddrs=HashSet [/172.29.32.1:47500, /2401:4900:313c:4df8:91:2ff7:c3ec:50ce:47500, /2401:4900:313c:4df8:4503:1e9e:364d:514a:47500, /2405:201:a006:3d:710e:da16:3454:5b7f:47500, /2405:201:a006:3d:8571:5421:11cf:e8dc:47500, /0:0:0:0:0:0:0:1:47500, /127.0.0.1:47500, host.docker.internal/192.168.29.59:47500], discPort=47500, order=1, intOrder=1, lastExchangeTime=1640581760673, loc=false, ver=8.8.11#20211125-sha1:f3544042, isClient=false]
+[10:39:20,728][INFO][tcp-client-disco-msg-worker-#4-#61][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustEnabled' was changed from 'null' to 'true'
+[10:39:20,729][INFO][tcp-client-disco-msg-worker-#4-#61][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustTimeout' was changed from 'null' to '0'
+[10:39:20,730][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteTxManager] Transactions parameter 'collisionsDumpInterval' was changed from 'null' to '1000'
+[10:39:20,730][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteTxManager] Transactions parameter 'longOperationsDumpTimeout' was changed from 'null' to '60000'
+[10:39:20,731][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpSamplesPerSecondLimit' was changed from 'null' to '5'
+[10:39:20,732][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpThreshold' was changed from 'null' to '0'
+[10:39:20,732][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteH2Indexing] SQL parameter 'sql.defaultQueryTimeout' was changed from 'null' to '0'
+[10:39:20,733][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteH2Indexing] SQL parameter 'sql.disabledFunctions' was changed from 'null' to '[FILE_WRITE, CANCEL_SESSION, MEMORY_USED, CSVREAD, LINK_SCHEMA, MEMORY_FREE, FILE_READ, CSVWRITE, SESSION_ID, LOCK_MODE]'
+[10:39:20,741][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteTxManager] Transactions parameter 'transactionTimeDumpSamplesCoefficient' was changed from 'null' to '0.0'
+[10:39:20,741][INFO][tcp-client-disco-msg-worker-#4-#61][IgniteTxManager] Transactions parameter 'txOwnerDumpRequestsAllowed' was changed from 'null' to 'true'
+[10:39:20,742][INFO][tcp-client-disco-msg-worker-#4-#61][ClusterProcessor] sad_heyrovsky
+[10:39:20,753][INFO][disco-notifier-worker-#58][GridClusterStateProcessor] Received activate cluster request with BaselineTopology[id=0] initiator node ID: d9c08330-106b-45b8-ba57-f6998139156d
+[10:39:20,763][WARNING][disco-notifier-worker-#58][GridClusterStateProcessor] Received state finish message with unexpected ID: ChangeGlobalStateFinishMessage [id=bbdea4afd71-90395478-11db-4c7c-863f-6dd94c12bf1d, reqId=d9c08330-106b-45b8-ba57-f6998139156d, clusterActive=true, state=ACTIVE, transitionRes=true]
+[10:39:20,765][INFO][disco-notifier-worker-#58][MvccProcessorImpl] Assigned mvcc coordinator [crd=MvccCoordinator [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], nodeId=2da17901-1180-4eeb-a443-963133e24c6f, ver=1640581707822, local=false, initialized=false]]
+[10:39:20,777][SEVERE][main][IgniteKernal] Failed to start manager: GridManagerAdapter [enabled=true, name=o.a.i.i.managers.discovery.GridDiscoveryManager]
+class org.apache.ignite.IgniteCheckedException: Remote node has peer class loading enabled flag different from local [locId8=d9c08330, locPeerClassLoading=false, rmtId8=2da17901, rmtPeerClassLoading=true, rmtAddrs=[2401:4900:313c:4df8:91:2ff7:c3ec:50ce/0:0:0:0:0:0:0:1, host.docker.internal/127.0.0.1, BLT210043.Corp.Optym.net/172.29.32.1, BLT210043.mshome.net/192.168.29.59, BLT210043.Corp.Optym.net/2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:4503:1e9e:364d:514a/2401:4900:313c:4df8:91:2ff7:c3ec:50ce, /2405:201:a006:3d:710e:da16:3454:5b7f, /2405:201:a006:3d:8571:5421:11cf:e8dc], rmtNode=ClusterNode [id=2da17901-1180-4eeb-a443-963133e24c6f, order=1, addr=[0:0:0:0:0:0:0:1, 127.0.0.1, 172.29.32.1, 192.168.29.59, 2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:91:2ff7:c3ec:50ce, 2405:201:a006:3d:710e:da16:3454:5b7f, 2405:201:a006:3d:8571:5421:11cf:e8dc], daemon=false]]
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.checkAttributes(GridDiscoveryManager.java:1242)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:1009)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1919)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:1235)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1784)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1706)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1143)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:634)
+	at org.apache.ignite.internal.processors.platform.PlatformAbstractBootstrap.start(PlatformAbstractBootstrap.java:45)
+	at org.apache.ignite.internal.processors.platform.PlatformIgnition.start(PlatformIgnition.java:73)
+[10:39:20,780][SEVERE][main][IgniteKernal] Got exception while starting (will rollback startup routine).
+class org.apache.ignite.IgniteCheckedException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1924)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:1235)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1784)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1706)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1143)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:634)
+	at org.apache.ignite.internal.processors.platform.PlatformAbstractBootstrap.start(PlatformAbstractBootstrap.java:45)
+	at org.apache.ignite.internal.processors.platform.PlatformIgnition.start(PlatformIgnition.java:73)
+Caused by: class org.apache.ignite.IgniteCheckedException: Remote node has peer class loading enabled flag different from local [locId8=d9c08330, locPeerClassLoading=false, rmtId8=2da17901, rmtPeerClassLoading=true, rmtAddrs=[2401:4900:313c:4df8:91:2ff7:c3ec:50ce/0:0:0:0:0:0:0:1, host.docker.internal/127.0.0.1, BLT210043.Corp.Optym.net/172.29.32.1, BLT210043.mshome.net/192.168.29.59, BLT210043.Corp.Optym.net/2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:4503:1e9e:364d:514a/2401:4900:313c:4df8:91:2ff7:c3ec:50ce, /2405:201:a006:3d:710e:da16:3454:5b7f, /2405:201:a006:3d:8571:5421:11cf:e8dc], rmtNode=ClusterNode [id=2da17901-1180-4eeb-a443-963133e24c6f, order=1, addr=[0:0:0:0:0:0:0:1, 127.0.0.1, 172.29.32.1, 192.168.29.59, 2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:91:2ff7:c3ec:50ce, 2405:201:a006:3d:710e:da16:3454:5b7f, 2405:201:a006:3d:8571:5421:11cf:e8dc], daemon=false]]
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.checkAttributes(GridDiscoveryManager.java:1242)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:1009)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1919)
+	... 7 more
+[10:39:20,791][INFO][main][GridDhtPartitionsExchangeFuture] Finish exchange future [startVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], resVer=null, err=class org.apache.ignite.internal.NodeStoppingException: Node is stopping: null, rebalanced=false, wasRebalanced=false]
+[10:39:20,795][INFO][main][GridDhtPartitionsExchangeFuture] Completed partition exchange [localNode=d9c08330-106b-45b8-ba57-f6998139156d, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=2, minorTopVer=0], evt=NODE_JOINED, evtNode=TcpDiscoveryNode [id=d9c08330-106b-45b8-ba57-f6998139156d, consistentId=d9c08330-106b-45b8-ba57-f6998139156d, addrs=ArrayList [0:0:0:0:0:0:0:1, 127.0.0.1, 172.29.32.1, 192.168.29.59, 2401:4900:313c:4df8:4503:1e9e:364d:514a, 2401:4900:313c:4df8:91:2ff7:c3ec:50ce, 2405:201:a006:3d:710e:da16:3454:5b7f, 2405:201:a006:3d:8571:5421:11cf:e8dc], sockAddrs=HashSet [/2405:201:a006:3d:8571:5421:11cf:e8dc:0, /0:0:0:0:0:0:0:1:0, /127.0.0.1:0, host.docker.internal/192.168.29.59:0, /2401:4900:313c:4df8:91:2ff7:c3ec:50ce:0, /172.29.32.1:0, /2401:4900:313c:4df8:4503:1e9e:364d:514a:0, /2405:201:a006:3d:710e:da16:3454:5b7f:0], discPort=0, order=2, intOrder=0, lastExchangeTime=1640581755086, loc=true, ver=8.8.11#20211125-sha1:f3544042, isClient=true], rebalanced=false, done=true, newCrdFut=null], topVer=null]
+[10:39:20,830][INFO][main][IgniteKernal] 
+
+>>> +----------------------------------------------------------------------------------+
+>>> Ignite ver. 8.8.11#20211125-sha1:f35440427ccb0fe4d440a1fa0a9b5c769ef2dfc8 stopped OK
+>>> +----------------------------------------------------------------------------------+
+>>> Grid uptime: 00:00:09.508
+
+
